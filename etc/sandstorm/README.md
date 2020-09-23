@@ -8,7 +8,7 @@
 - `cd ..`
 - Invoke `./stage.sh` to stage the build files. gfind is gnu find on OS X.
 - Log into the vagrant box `vagrant-spk vm ssh`
-- `sudo apt-get install g++`
+- `sudo apt-get install g++ pkg-config`
 - [Install latest capnp](https://capnproto.org/install.html)
 - In the vm, under `/opt/app/.sandstorm` run `make dev`
 

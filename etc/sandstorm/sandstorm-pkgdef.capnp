@@ -25,7 +25,7 @@ const pkgdef :Spk.PackageDefinition = (
     # This manifest is included in your app package to tell Sandstorm
     # about your app.
 
-    appVersion = 3,  # Increment this for every release.
+    appVersion = 4,  # Increment this for every release.
     
     appTitle = (defaultText = "diagrams.net"),
     
@@ -54,8 +54,8 @@ const pkgdef :Spk.PackageDefinition = (
         market = (png = (dpi1x = embed "client/images/drawlogo256.png")),
       ),
 
-      website = "https://www.draw.io/",
-      codeUrl = "https://github.com/jgraph/draw.io",
+      website = "https://www.diagrams.net/",
+      codeUrl = "https://github.com/jgraph/drawio",
       license = (openSource = gpl3),
       categories = [office, productivity],
 
